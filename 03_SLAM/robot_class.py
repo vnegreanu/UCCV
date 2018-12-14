@@ -106,7 +106,7 @@ class robot:
             dy+= self.rand() * self.measurement_noise
             
             #skip if one of coordinates is out of range
-            if dx > self.measurement_range or dy > self.measurement_range:
+            if abs(dx) > self.measurement_range or abs(dy) > self.measurement_range:
                 continue
             else:
                 measurements.append([landmark, dx, dy])
