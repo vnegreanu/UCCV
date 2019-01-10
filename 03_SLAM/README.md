@@ -12,7 +12,7 @@ SLAM gives us a way to track the location of a robot in the world in real-time a
 
 Below is an example of a 2D robot world with landmarks (purple x's) and the robot (a red 'o') located and found using only sensor and motion data collected by that robot.
 
-![map_description](images/description.png)
+![map_description](images/robot_world.png)
 
 
 #### Files
@@ -53,7 +53,7 @@ with absolute confidence that our robot starts out in the middle of the defined 
 Finally, we can visualize the code implemented : the final position of the robot and the position of landmarks, created from only motion and measurement data. 
 We construct `dx` and `dy` based on `rand()` and measurment noise and we then compare the absolute values of `dx` or `dy` against the measurment range since `dx` and `dy` can be negative.
 
-![visualized_data](images/constructed_world.png)
+![visualized_data](images/robot_world.png)
 
 
 
