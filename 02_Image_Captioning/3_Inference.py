@@ -165,7 +165,20 @@ assert all([x in data_loader.dataset.vocab.idx2word for x in output]), "Each ent
 
 # TODO #4: Complete the function.
 def clean_sentence(output):
-    sentence = ""    
+    sentence = ""
+    #debug get the vocab indexes
+    #print (data_loader.dataset.vocab.idx2word)
+    
+    for index in output:
+        #get rid of <start> and <end> and <.>
+        if (index==0) or (index==1) or (index==18):
+            continue
+        #get the word based on index form vocabulary
+        word = data_loader.dataset.vocab.idx2word[index]
+        #append the word to sentence
+        sentence += str(word)
+        #append space between words
+        sentence += " " 
     return sentence
 
 
