@@ -14,7 +14,7 @@ such as eyes, nose, mouth, teeth and chin.
 
 ### Image Captioning
 
-[P2_Image_Captioning](https://github.com/vnegreanu/UCCV/tree/master/01_Facial_Keypoints)
+[P2_Image_Captioning](https://github.com/vnegreanu/UCCV/tree/master/02_Image_Captioning)
 
 #### Description
 
