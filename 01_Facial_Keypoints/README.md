@@ -9,7 +9,7 @@ Use image processing techniques and Convolutional Neural Networks to detect keyp
 Keypoint detection system that takes in any image with faces, and predicts the location of 68 distinguishing keypoints on each face.
 
 An example is shown in the picture below:
-![] (local_images/key_pts_example.png)
+![Example image](local_images/key_pts_example.png)
 
 #### Files
 * `Notebook 1`: Loading and visualizing the facial keypoint data
